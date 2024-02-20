@@ -1,0 +1,5 @@
+1. torch 
+2. lightning
+3. pandas
+4. matplotlib
+5. seaborn
