@@ -75,6 +75,7 @@ class WordEmbeddingFromScratch(L.LightningModule):
 
         output_presoftmax = torch.stack([output_1, output_2, output_3, output_4])
         return(output_presoftmax)
+      
     def configure_adam_optimizer(self):
         return Adam(self.parameters(), lr = 0.1)
 
